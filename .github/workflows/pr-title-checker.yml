@@ -17,9 +17,9 @@ jobs:
     name: Check PR title
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      statuses: write
 
     steps:
-      - uses: aslafy-z/conventional-pr-title-action@v2
+      - uses: aslafy-z/conventional-pr-title-action@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
