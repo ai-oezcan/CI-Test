@@ -1,0 +1,27 @@
+name: GitHub Release & Deploy tag
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  gh-release:
+    name: Github Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build changelog
+        id: github_release
+        uses: mikepenz/release-changelog-builder-action@v3
+        # with:
+        #   configuration: "changelog-release.json"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: ${{steps.github_release.outputs.changelog}}
