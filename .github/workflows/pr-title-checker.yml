@@ -16,7 +16,9 @@ jobs:
   title-checker:
     name: Check PR title
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: read
+          
     steps:
       - uses: aslafy-z/conventional-pr-title-action@v2
         env:
