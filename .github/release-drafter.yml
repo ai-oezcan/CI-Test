@@ -17,6 +17,7 @@ categories:
     labels:
       - fix
       - bug
+      - bugfix
   - title: ⚠️ Changes
     labels:
       - changed
