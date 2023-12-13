@@ -2,10 +2,10 @@
     "categories": [
         {
             "title": "## 🚀 Features",
-            "labels": ["feature"]
+            "labels": ["feature", "enhancement"]
         },
         {
-            "title": "## 🐛 Fixes",
+            "title": "## 🐛 Bug Fixes",
             "labels": ["fix", "bug", "bugfix"]
         },
         {
@@ -13,12 +13,37 @@
             "labels": ["test"]
         },
         {
-            "title": "## 💬 Other",
-            "labels": ["other"]
+            "title": "## ⚠️ Changes",
+            "labels": ["changed"]
+        },
+        {
+            "title": "## ⛔️ Deprecated",
+            "labels": ["deprecated"]
+        },
+        {
+            "title": "## 🗑 Removed",
+            "labels": ["removed"]
+        },
+        {
+            "title": "## 🔐 Security",
+            "labels": ["security"]
+        },
+        {
+            "title": "## 🧩 Dependency Updates",
+            "labels": ["security"]
         },
         {
             "title": "## 📦 Dependencies",
-            "labels": ["dependencies"]
+            "labels": ["deps", "dependencies"]
+        },
+        {
+            "title": "## 📦 Documentations",
+            "labels": ["documentation"]
+        },
+        {
+            "title": "## 💬 Other",
+            "labels": ["other"]
         }
     ]
 }
+
