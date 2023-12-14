@@ -4,7 +4,7 @@ import time
 
 def main():
     logging.info("----Started-----")
-    time.sleep(7)
+    time.sleep(10)
     logging.info("----Finihed-----")
 
 
