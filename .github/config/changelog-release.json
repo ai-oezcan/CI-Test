@@ -2,7 +2,7 @@
     "categories": [
         {
             "title": "## 🚀 Features",
-            "labels": ["feature"]
+            "labels": ["feature", "enhancement"]
         },
         {
             "title": "## 🐛 Fixes",
@@ -19,6 +19,10 @@
         {
             "title": "## 📦 Dependencies",
             "labels": ["dependencies"]
+        },
+        {
+            "title": "## 📄 Documentation",
+            "labels": ["documentation", "docs"]
         }
     ]
 }
