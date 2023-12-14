@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.8 - 2023-12-14
+
+### What Changed 👀
+
+### 🚀 Features
+
+- feature: added x
+- documentation: added doc (#10) @ai-oezcan
+- feature: added x
+- fix: fixed y
+- documentation: typo (#9) @ai-oezcan
+  (#8) @ai-oezcan
+
+### 🐛 Bug Fixes
+
+- fix: Changelog when publish (#11) @ai-oezcan
+- feature: added x
+- fix: fixed y
+- documentation: typo (#9) @ai-oezcan
+  (#8) @ai-oezcan
+
+### 📄 Documentation
+
+- feature: added x
+- documentation: added doc (#10) @ai-oezcan
+- feature: added x
+- fix: fixed y
+- documentation: typo (#9) @ai-oezcan
+  (#8) @ai-oezcan
+  **Full Changelog**: https://github.com/ai-oezcan/CI-Test/compare/v0.2.7...v0.2.8
+
 ## v0.2.7 - 2023-12-14
 
 ### What Changed 👀
