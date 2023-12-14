@@ -40,7 +40,7 @@ categories:
       - dependencies
     collapse-after: 5
 
-change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-template: '$BODY (#$NUMBER) @$AUTHOR'
 change-title-escapes: '\<*_&' # You can add # and @ to disable mentions, and add ` to disable code blocks.
 version-resolver:
   major:
