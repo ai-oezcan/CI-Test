@@ -6,7 +6,6 @@ def main():
     logging.info("----Started-----")
     logging.info("---Processing---")
     time.sleep(10)
-    
     logging.info("----Finihed-----")
 
 
