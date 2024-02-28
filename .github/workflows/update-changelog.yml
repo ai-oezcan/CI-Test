@@ -16,13 +16,13 @@ jobs:
     steps:
       - name: Check token
         run: |
-          echo ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
-          echo $secrets.MY_PERSONAL_ACCESS_TOKEN
+          echo ${{ secrets.MY_PAT }}
+          echo $secrets.MY_PAT
     
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.MY_PERSONAL_ACCESS_TOKEN }}
+          token: ${{ secrets.MY_PAT }}
 
       - name: Update Changelog
         uses: stefanzweifel/changelog-updater-action@v1
