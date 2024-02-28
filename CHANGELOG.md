@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.17 - 2024-02-28
+
+asdasdasdgzxxczxczcxzxc
+
 ## v0.2.11 - 2024-01-22
 
 ### What Changed 👀
