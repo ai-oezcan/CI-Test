@@ -26,7 +26,6 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: update changelog
-          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           add-paths: |
             CHANGELOG.md          
           signoff: false
@@ -37,7 +36,7 @@ jobs:
           body: Update changelog to reflect release changes
           labels: |
             documentation
-          reviewers: github-actions[bot]
+          #reviewers: github-actions[bot]
           draft: false
 
       - name: Auto approve
