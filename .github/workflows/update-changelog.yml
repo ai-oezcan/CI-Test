@@ -1,10 +1,14 @@
 name: Update Changelog
 
-on:
-  release:
-    types: 
-      - released
+# on:
+#   release:
+#     types: 
+#       - released
 
+on:
+  push:
+    tags:
+      - v*
 
 jobs:
   update:
@@ -21,8 +25,8 @@ jobs:
     
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.MY_PAT }}
+        # with:
+        #   token: ${{ secrets.MY_PAT }}
 
       - name: Update Changelog
         uses: stefanzweifel/changelog-updater-action@v1
