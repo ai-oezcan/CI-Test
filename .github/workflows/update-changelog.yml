@@ -50,13 +50,18 @@ jobs:
           labels: |
             documentation
             automated pr
-          reviewers: peter-evans
+          reviewers: github-actions[bot]
           team-reviewers: |
             developers
             qa-team
           milestone: 1
           draft: false
 
+      - name: Auto approve
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        run: gh pr review --approve "${{ steps.cpr.outputs.pull-request-number }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 # on:
 #   release:
 #     types: 
