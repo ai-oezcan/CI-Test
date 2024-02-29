@@ -22,14 +22,14 @@ jobs:
           release-notes: ${{ github.event.release.body }}
 
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: update changelog
-          title: Update Changelog
-          body: Update changelog to reflect release changes
-          branch: update-changelog
-          base: main
+      #- name: Create Pull Request
+      #  uses: peter-evans/create-pull-request@v6
+      #  with:
+      #    commit-message: update changelog
+      #    title: Update Changelog
+      #    body: Update changelog to reflect release changes
+      #    branch: update-changelog
+      #    base: main
 
       - name: Create Pull Request
         id: cpr
@@ -42,19 +42,14 @@ jobs:
           add-paths: |
             CHANGELOG.md          
           signoff: false
+          base: main
           branch: update-changelog
           delete-branch: true
           title: 'Update Changelog'
-          body: |
-            Update changelog to reflect release changes
+          body: Update changelog to reflect release changes
           labels: |
             documentation
-            automated pr
           reviewers: github-actions[bot]
-          team-reviewers: |
-            developers
-            qa-team
-          milestone: 1
           draft: false
 
       - name: Auto approve
