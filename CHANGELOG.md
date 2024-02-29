@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.25 - 2024-02-29
+
+### What Changed 👀
+
+vb dchm<sdf
+
+* No changes
+  **Full Changelog**: https://github.com/ai-oezcan/CI-Test/compare/v0.2.24...v0.2.25
+
 ## v0.2.17 - 2024-02-28
 
 asdasdasdgzxxczxczcxzxc
