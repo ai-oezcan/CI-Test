@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## v0.2.29 - 2024-03-06
+
+### What Changed 👀
+
+(#23) @ai-oezcan
+
+### 📄 Documentation
+
+Update changelog to reflect release changes (#22) @github-actions
+**Full Changelog**: https://github.com/ai-oezcan/CI-Test/compare/v0.2.28...v0.2.29
+
 ## v0.2.28 - 2024-02-29
 
 ### What Changed 👀
