@@ -36,7 +36,6 @@ jobs:
           body: Update changelog to reflect release changes
           labels: |
             documentation
-          #reviewers: github-actions[bot]
           draft: false
 
       - name: Enable Pull Request Automerge
